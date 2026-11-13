@@ -1,0 +1,23 @@
+{
+  "name": "base-minecraft-bedrock-bot",
+  "version": "1.0.0",
+  "description": "A minimal Minecraft Bedrock bot base for The Hive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["minecraft", "bedrock", "hive", "bot", "bedrock-protocol"],
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "bedrock-protocol": "3.61.0"
+  },
+  "overrides": {
+    "cmake-js": "^8.0.0",
+    "prismarine-xbox-services": "https://codeload.github.com/PrismarineJS/prismarine-xbox-services/tar.gz/052a9676f514c5470a723651b1dbb1adcf238944"
+  },
+  "allowScripts": {
+    "raknet-native@1.2.3": true
+  }
+}
